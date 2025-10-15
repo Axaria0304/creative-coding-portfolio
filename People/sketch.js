@@ -16,7 +16,7 @@ function draw() {
   let isGreen = (frameCount % 600) < 300; // first 300 frames = green
   let isRed   = !isGreen;                 // next 300 frames = red
 
-
+  // 
   // sidewalks
   noStroke();
   fill(166,166,166);
