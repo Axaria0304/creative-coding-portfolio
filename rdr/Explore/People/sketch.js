@@ -41,7 +41,7 @@ function setup() {
 
 function draw() {
   background(100);
-
+//
   policeCar.update();
 
   let baseIsGreen = (frameCount % 600) < 300;
