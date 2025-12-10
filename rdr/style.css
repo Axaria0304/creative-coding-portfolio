@@ -1,0 +1,50 @@
+/* Reset and base setup */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Center everything */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Main heading */
+h1 {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 7rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  font-style: normal;
+  color: #ffffff;
+  font-size: 3rem;
+  text-decoration: none;
+  font-weight: 400;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 4px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #7d0606;
+  border-color: #7d0606;
+}
+
+
