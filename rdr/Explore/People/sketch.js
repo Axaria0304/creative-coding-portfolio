@@ -138,7 +138,7 @@ function drawLightPeople(cx, cy, isGreen) {
   pop();
 }
 
-// Traffic light for cars
+//Traffic light for cars
 function drawLightCar(cx, cy, isGreen) {
   push();
   rectMode(CENTER);
