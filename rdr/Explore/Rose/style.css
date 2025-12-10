@@ -1,0 +1,14 @@
+/* Make page take full height and be black */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+}
+
+/* Make sure the canvas displays properly */
+canvas {
+  display: block;
+}
